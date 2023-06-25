@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap">
+    <title>My To-do List</title>
+</head>
+<body>
+    <div class = "login-container" id = "loginContainer">
+        <form id = "loginForm">
+            <h2>이 페이지는 1920 x 1080 해상도에 최적화 되어 있습니다.</h2>
+            <input type = "text" id = "loginUserName" placeholder="로그인할 이름을 적어주세요">
+        </form>
+    </div>
+    <div class = "main-container" id="mainContainer">
+        <div class = "dateInfo"> 
+            <h3 id="date">0월0일0요일</h3>
+            <h2 id="clock">00:00:00</h2>
+        </div>
+        <div class = "todo-list" id="todoList">
+            <h1>해야할일</h1>
+            <ul id="todo-list">
+            </ul>
+            <form id = "todoForm">
+                <input type = "text" id = "todoInput" placeholder="할일을 적어주세요">
+            </form>
+        </div>
+        <div id = "weatherForm">
+            
+        </div>
+        <div id="quote">
+
+        </div>
+    </div>
+    <script src = "js/Login.js"></script>
+    <script src = "js/clock.js"></script>
+    <script src = "js/todo.js"></script>
+    <script src = "js/weather.js"></script>
+    <script src = "js/quotes.js"></script>
+</body>
+</html>

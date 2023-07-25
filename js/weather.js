@@ -1,7 +1,7 @@
 function onGeoSuccess(position) {
     const lat = position.coords.latitude;
     const lon = position.coords.longitude;
-    const API_KEY = "ed6a04e2d546d1438570fbdb5179980f";
+    const API_KEY = "yourKEY";
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric&lang=kr`;
     const weatherForm = document.getElementById("weatherForm");
     
